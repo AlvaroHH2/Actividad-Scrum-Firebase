@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Fuente";
+   src: url(VeraSeBd.ttf);
+  }
+ 
+  #primerParrafo{
+	background-color: aqua;
+	font-family: fuente;
+	font-family: "Fuente" ;
+  }
+ 
+ 
+ h2{
+ 
+   text-align: center;
+ }
+ @media(max-width: 500px){
+   #primerParrafo{
+	 background-color:red;
+   }
+  
+ }
+ 
+ #efecto
+ {
+  background:rgba(195,202,203,0.3);
+  width: 150px;
+  height: 150px;
+  margin: 10% auto;
+  transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg);
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+ }
+ 
+ 
+ #efecto
+ {
+  background:rgba(195,202,203,0.3);
+  width: 150px;
+  height: 150px;
+  margin: 10% auto;
+  transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg);
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+ }
+ 
+ #efecto:hover 
+ {
+   background:#f33;
+   width:200px;
+   height:200px;
+   border-radius:50%;
+   -webkit-border-radius:50%; 
+   transform: rotate(-360deg); 
+   -webkit-transform: rotate(-360deg);
+ }
+ 
+ 
